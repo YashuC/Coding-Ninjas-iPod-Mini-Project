@@ -1,0 +1,59 @@
+/* container div */
+.now-playing-container{
+    width: 270px;
+    height: 190px;
+    background-color: #E3F2FD;
+}
+
+/* Song details div */
+.song-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* img in song details */
+.song-details img{
+    margin: auto;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+/* name of song */
+.song-details h6{
+    margin: 2px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/* playing or not */
+.status{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/* progress of song duration */
+#progress{
+    width: 65%;
+    height: 10px;
+    margin: 0px 5px;
+    background-color: gray;
+}
+
+/* progress bar filled */
+#progress-bar{
+    height: 10px;
+    background-color: green;
+}
+
+.play-pause-nav {
+    margin-top: 20px;
+    font-size: 18px;
+}
